@@ -1,0 +1,15 @@
+database:
+  connection-timeout: 30
+  pool-size: 10
+
+employee:
+  pagination:
+    page-size: 20
+  validation:
+    min-name-length: 3
+
+logging:
+  file-path: logs/employee.log
+
+feature:
+  audit-enabled: true

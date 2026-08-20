@@ -1,0 +1,294 @@
+{
+  "configs": [
+    {
+      "key": "spring.application.name",
+      "value": "employee-app",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 1,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "spring.datasource.url",
+      "value": "jdbc:h2:mem:employeedb",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 2,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "spring.datasource.driver-class-name",
+      "value": "org.h2.Driver",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 3,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "spring.datasource.username",
+      "value": "sa",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 4,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "spring.datasource.password",
+      "value": "",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 5,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "spring.jpa.hibernate.ddl-auto",
+      "value": "create-drop",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 6,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "spring.jpa.show-sql",
+      "value": "true",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 7,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "spring.h2.console.enabled",
+      "value": "true",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 8,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "server.port",
+      "value": "8080",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 11,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "app.company.name",
+      "value": "Acme Corporation",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 12,
+      "files": [
+        "src/main/resources/application.properties",
+        "src/main/java/employee_app/config/ApplicationConfig.java"
+      ]
+    },
+    {
+      "key": "app.employee.max-results",
+      "value": "100",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 13,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "app.employee.default-department",
+      "value": "Engineering",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 14,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "app.email.enabled",
+      "value": "true",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 15,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "app.cache.ttl",
+      "value": "300",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 16,
+      "files": [
+        "src/main/resources/application.properties"
+      ]
+    },
+    {
+      "key": "app.api.timeout",
+      "value": "30",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.properties",
+      "declaration_line": 17,
+      "files": [
+        "src/main/resources/application.properties",
+        "src/main/java/employee_app/config/ApplicationConfig.java"
+      ]
+    },
+    {
+      "key": "database.connection-timeout",
+      "value": "30",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.yml",
+      "declaration_line": 2,
+      "files": [
+        "src/main/resources/application.yml",
+        "src/main/resources/application-dev.yml",
+        "src/main/resources/application-prod.yml"
+      ]
+    },
+    {
+      "key": "database.pool-size",
+      "value": "10",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.yml",
+      "declaration_line": 3,
+      "files": [
+        "src/main/resources/application.yml"
+      ]
+    },
+    {
+      "key": "employee.pagination.page-size",
+      "value": "20",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.yml",
+      "declaration_line": 7,
+      "files": [
+        "src/main/resources/application.yml",
+        "src/main/resources/application-dev.yml",
+        "src/main/resources/application-prod.yml",
+        "src/main/java/employee_app/config/EmployeeProperties.java"
+      ]
+    },
+    {
+      "key": "employee.validation.min-name-length",
+      "value": "3",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.yml",
+      "declaration_line": 9,
+      "files": [
+        "src/main/resources/application.yml",
+        "src/main/java/employee_app/config/EmployeeProperties.java"
+      ]
+    },
+    {
+      "key": "logging.file-path",
+      "value": "logs/employee.log",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.yml",
+      "declaration_line": 12,
+      "files": [
+        "src/main/resources/application.yml"
+      ]
+    },
+    {
+      "key": "feature.audit-enabled",
+      "value": "true",
+      "source_type": "config_file",
+      "declaration_file": "src/main/resources/application.yml",
+      "declaration_line": 15,
+      "files": [
+        "src/main/resources/application.yml"
+      ]
+    },
+    {
+      "key": "MAX_EMPLOYEE_RESULTS",
+      "value": "100",
+      "source_type": "embedded",
+      "declaration_file": "src/main/java/employee_app/config/AppConstants.java",
+      "declaration_line": 8,
+      "files": [
+        "src/main/java/employee_app/config/AppConstants.java",
+        "src/main/java/employee_app/service/EmployeeService.java"
+      ]
+    },
+    {
+      "key": "DEFAULT_DEPARTMENT",
+      "value": "Engineering",
+      "source_type": "embedded",
+      "declaration_file": "src/main/java/employee_app/config/AppConstants.java",
+      "declaration_line": 10,
+      "files": [
+        "src/main/java/employee_app/config/AppConstants.java",
+        "src/main/java/employee_app/service/EmployeeService.java"
+      ]
+    },
+    {
+      "key": "MAX_LOGIN_ATTEMPTS",
+      "value": "5",
+      "source_type": "embedded",
+      "declaration_file": "src/main/java/employee_app/config/AppConstants.java",
+      "declaration_line": 12,
+      "files": [
+        "src/main/java/employee_app/config/AppConstants.java"
+      ]
+    },
+    {
+      "key": "CACHE_TTL_SECONDS",
+      "value": "300",
+      "source_type": "embedded",
+      "declaration_file": "src/main/java/employee_app/config/AppConstants.java",
+      "declaration_line": 14,
+      "files": [
+        "src/main/java/employee_app/config/AppConstants.java"
+      ]
+    },
+    {
+      "key": "API_TIMEOUT_SECONDS",
+      "value": "30",
+      "source_type": "embedded",
+      "declaration_file": "src/main/java/employee_app/config/AppConstants.java",
+      "declaration_line": 16,
+      "files": [
+        "src/main/java/employee_app/config/AppConstants.java"
+      ]
+    },
+    {
+      "key": "EMPLOYEE_API_URL",
+      "value": null,
+      "source_type": "embedded",
+      "declaration_file": "src/main/java/employee_app/config/EnvironmentConfig.java",
+      "declaration_line": 9,
+      "files": [
+        "src/main/java/employee_app/config/EnvironmentConfig.java"
+      ]
+    },
+    {
+      "key": "DB_HOST",
+      "value": null,
+      "source_type": "embedded",
+      "declaration_file": "src/main/java/employee_app/config/EnvironmentConfig.java",
+      "declaration_line": 13,
+      "files": [
+        "src/main/java/employee_app/config/EnvironmentConfig.java"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+database:
+  connection-timeout: 30
+
+employee:
+  pagination:
+    page-size: 20
